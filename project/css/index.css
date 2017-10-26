@@ -1,0 +1,171 @@
+	html,body,div,p,ol,ul,li,dl,dt,dd,table,tr,td,th,form,h1,h2,h3,h4,h5,h6,a,fieldset,legend,figure,hr,img,input{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style: none;
+		}
+		html,body{
+			height: 100%;
+			font-family: "microsoft yahei",Arial;
+			font-size: 14px;
+			
+		}
+		#indexHeader{
+			display: flex;
+			height:60px;
+			width:100%;
+			background-color: azure;
+		}
+		#indexHeader img{
+			float: left;
+		}
+		#indexMenu{
+			float: left;
+			height:60px;
+			width:290px;
+		}
+		#indexMenu a{
+			
+			line-height: 60px;
+			color:black;		
+			margin-left: 30px;
+		}
+		#indexRight{
+			float: right;
+			
+		}
+		#indexSeach{
+			float:right;
+			margin-right:30px;
+			
+		}
+		#indexLogin{
+			float: right;
+			height: 30px;
+			width:100px;
+			margin-right: 40px;
+			margin-top:14px;
+			margin-bottom: 16px;
+			background-color: #fc6463;
+			border-radius: 15px 15px;
+			color: white;
+			text-align: center;
+			line-height: 30px;
+		}	
+		#indexBanner{
+			margin-top: 0;
+			display: flex;
+			height:340px;
+			width:100%;
+			flex: 1;
+		}
+		#indexBannerLeft{
+			
+			height:340px;
+			width:144px;
+			background-color:#7d3cfa;
+		}
+		#indexBannerCenter{		
+			position: relative;
+			overflow: hidden;
+			height:340px;
+			width:1135px;		
+		}
+		#indexBannerRight{
+			float: right;
+			height:340px;
+			width:144px;
+			background-color:#7d3cfa;
+		}
+		#smallCartoner{
+			position: fixed;
+			right: 0;
+			top:333px;
+			height: 113px;
+			width: 87px;
+		}
+		#indexNav{
+			height:130px;
+			width:1135px;
+			margin: 0 auto;
+			background-color:azure;
+		}
+		#indexContent{
+			height:1000px;
+			width:1135px;
+			margin:0 auto;
+			background-color:sienna;
+		}
+		#moreTopic{
+			padding-top:40px ;
+			margin:0 auto;
+			height:84px;
+			width:1135px;
+		}
+		#more{			
+			height:44px;
+			width:402px;
+			margin:0 auto;
+			color: black;
+			text-align: center;
+			line-height: 44px;
+			border-radius: 20px 20px;
+			background-color: #f5f5f5;
+		}
+		#backTop{
+			position: fixed;
+			height:40px;
+			width: 40px;
+			right:155px;
+			bottom:210px;
+		}
+		#indexFooter{
+			padding: 30px 40px;
+			height:104px;
+			width:1343px;
+			background-color:#434446;
+			color:#c5c2cd;
+		}
+		#footerLeft1{
+			float:left;
+			height:102px;
+			width:59px;
+			
+			background: url(../images/footerleftborder-1.jpg) left bottom no-repeat;
+		}
+		#footerLeft2{
+			float:left;
+			
+			margin-left:100px;
+			height:104px;
+			width:59px;
+			background-color: #000000;
+		}
+		#footerCenter{
+			float: left;
+			margin-left:100px ;
+			height:93px;
+			width:471px;
+			background-color: #000000;
+		}
+		#footerRight{
+			float: right;
+			height:100px;
+			width:250px;
+			background-color: #000000;
+		}
+		#indexFooter a{
+			display: block;
+			font-size: 12px;
+			color:#c5c2cd;
+			margin-bottom: 10px;
+		}
+		#copyright{
+			height:40px;
+			width:100%;
+			color:#c5c2cd;
+			line-height: 40px;
+			text-align: center;
+			background-color:#38383a;
+			font-size: 12px;
+		}
