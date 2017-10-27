@@ -16,8 +16,8 @@ $(function(){
 							//按钮的大小
 							width:10,
 							height:10,
-							color:"lightgray",//按钮的原始颜色
-							highColor:"black",//按钮的高亮颜色
+							color:"white",//按钮的原始颜色
+							highColor:"gray",//按钮的高亮颜色
 							//按钮的位置（）
 							right:530,
 							bottom:10,

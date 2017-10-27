@@ -1,0 +1,22 @@
+{
+  "name": "gitpro",
+  "version": "1.0.0",
+  "description": " 这是我的gulp测试文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaopichin/wutang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaopichin/wutang/issues"
+  },
+  "homepage": "https://github.com/kaopichin/wutang#readme",
+  "devDependencies": {
+    "gulp-less": "^3.3.2"
+  }
+}
