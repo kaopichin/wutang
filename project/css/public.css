@@ -1,3 +1,6 @@
+/**/
+/*public*/   
+/**/
 	html,body,div,p,ol,ul,li,dl,dt,dd,table,tr,td,th,form,h1,h2,h3,h4,h5,h6,a,fieldset,legend,figure,hr,img,input{
 			margin: 0;
 			padding: 0;
@@ -21,9 +24,9 @@
 			z-index: 12;
 		}
 		#indexHeader img{
+			float: left;
 			height:60px;
 			width:95px;
-			float: left;
 		}
 		#indexMenu{
 			float: left;
@@ -79,150 +82,10 @@
 			text-align: center;
 			line-height: 30px;
 		}
-/*2.banner*/
-		#indexBanner{
-			
-			margin-top: 60px;
-			display: flex;
-			height:340px;
-			width:100%;
-			flex: 1;
-		}
-		#indexBannerLeft{
-			
-			height:340px;
-			width:144px;
-			background-color:#7d3cfa;
-		}
-		#indexBannerCenter{		
-			position: relative;
-			overflow: hidden;
-			height:340px;
-			width:1135px;		
-		}
-		#indexBannerRight{
-			float: right;
-			height:340px;
-			width:144px;
-			background-color:#7d3cfa;
-		}
-		#smallCartoner{
-			position: fixed;
-			right: 0;
-			top:345px;
-			height: 105px;
-			width: 85px;
-		}
-/*3.nav*/
-		#indexNav{
-			padding: 92px atuo;
-			height:130px;
-			width:951px;
-			margin: 0 auto;
-		}
 		
-		#indexNav li{
-			float: left;
-			margin-top: 40px;
-			margin-right: 15px;
-			height:25px;
-			width: 58px;
-			
-		}
-		#indexNav a{
-			color: #4c4c4c;
-			font-size: 14px;
-			
-		}
-/*4.content*/
-		#indexContent{
-			height:1040px;
-			width:976px;
-			margin-left:237px ;
-			margin-right:212px ;
-		}
-		.contentdatil{
-			float: left;
-			height:260px;
-			width:300px;
-			margin-right: 25px;
-		}
-		.watch{
-			float: left;
-			background-image:url(../images/watch.jpg);
-			height:10px;
-			width:13px;
-			margin-top:7px ;
-			margin-left:81px;
-		}
-		.like{
-			float: right;
-			background-image:url(../images/like.jpg);
-			height:10px;
-			width:11px;
-			margin-top:7px ;
-			margin-right:45px;
-		}
-		.goodsimg{
-			height:165px;
-			width:300px;
-			margin: 0;
-		}
-		.title{
-			font-size: 16px;
-			margin-top: 15px;
-			margin-bottom: 15px;
-		}
-		.name{
-			float: left;
-			margin-top:5px ;
-			margin-left:10px;
-			font-size: 12px;
-			color: #9a9b93;
-		}
-		.watchnum{
-			float: left;
-			margin-top:4px ;
-			font-size: 12px;
-			color: #9a9b93;
-		}
-		.likenum{
-			float: right;
-			margin-top:4px ;
-			font-size: 12px;
-			color: #9a9b93;
-		}
-		.icon{
-			float: left;
-			height:25px;
-			width:25px;
-			border-radius: 50px;
-			margin-bottom: 22px;
-		}
-		#moreTopic{
-			padding-top:40px ;
-			margin:0 auto;
-			height:84px;
-			width:1135px;
-		}
-		#more{			
-			height:44px;
-			width:402px;
-			margin:0 auto;
-			color: #49494b;
-			text-align: center;
-			line-height: 44px;
-			border-radius: 20px 20px;
-			background-color: #f5f5f5;
-		}
-		#backTop{
-			position: fixed;
-			height:40px;
-			width: 40px;
-			right:155px;
-			bottom:210px;
-		}
-/*5.footer*/
+		
+		
+		/*5.footer*/
 		#indexFooter{
 			padding: 30px 40px;
 			height:104px;

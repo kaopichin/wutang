@@ -1,0 +1,140 @@
+/*content*/
+#detailContent{
+	margin-top: 100px;
+	height:3267px;
+	width:600px;
+	background-color: seashell;
+	margin-left:237px;
+}
+#sumTitle{
+	display:block;
+	height:24px;
+	width: 600px;
+	color:#444;
+	padding-top:7px ;
+	padding-bottom:7px;
+}
+.p1_1{
+	margin-top: 20px;
+	color: #555;
+	margin-bottom: 5px;
+	line-height: 30px;
+}
+.p1_t{
+	margin-top: 32px;
+	font-size: 16px;
+	color: #555;
+	margin-bottom: 15px;
+	margin-left: 4px;
+	border-left: 4px solid #ffb002;	
+	padding-left: 4px;
+}
+.p1_2{
+	color: #555;
+	margin-bottom: 45px;
+	line-height: 30px;
+}
+.iteam{
+	margin-top: 3px;
+	height:139px;
+	width:600px;
+	background-color:#f8f8f8;
+}
+.iteamImg{
+	float: left;
+	height:132px;
+	width:132px;
+	margin:auto;
+	margin:3px 18px 3px 3px;
+}
+.iteamTitle{
+	font-size: 18px;
+	height:21px;
+	width:445px;
+	color: #555;
+	float: left;
+	margin:20px 0 20px 0;
+}
+.iteamPrice{
+	float: left;
+	font-size: 18px;
+	color: #555;
+	height:37px;
+	width:445px;
+	background: url(../images/iteamBorder01.jpg) no-repeat bottom;
+}
+.iteamLike{
+	float: left;
+	height:40px;
+	width:210px;
+}
+#likeIcon{
+	height:15px;
+	width:17px;
+	margin:10px 7px 0 77px;
+}	
+.iteamBuy{
+	float: left;
+	height:40px;
+	width:237px;
+	background-color: lightpink;
+	background: url(../images/iteamBorder02.jpg) no-repeat left;
+}
+#gowucheIcon{
+	margin:10px 7px 0 77px;
+	height:15px;
+	width:18px;
+}
+.iteam span{
+	color:#555;
+}
+/*fixed*/
+#shear{
+	position: fixed;
+	top:100px;
+	right:236px;
+	height:295px;
+	width:300px;
+	background-color:lightblue;
+}
+#tmailAd01{
+	height:200px;
+	width:300px;
+}
+#smallCartoner{
+	position: fixed;
+	right: 0;
+	top:345px;
+	height: 105px;
+	width: 85px;
+}
+#backTop{
+	position: fixed;
+	height:40px;
+	width: 40px;
+	right:155px;
+	bottom:252px;
+}
+#heart{
+	position: fixed;
+	height:40px;
+	width: 40px;
+	right:155px;
+	bottom:211px;
+}
+/*share*/
+#share{
+	height:132px;
+	margin-left:237px;
+	width:600px;
+	background-color: antiquewhite;
+}
+#share p{
+	
+}
+#share div{
+	height:50px;
+	width:270px;
+	background: url(../images/share-channel@2x-49f05f735a.png) no-repeat 0 0;
+	background-size:270px 100px;
+}
